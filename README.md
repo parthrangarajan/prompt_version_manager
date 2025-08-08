@@ -17,25 +17,22 @@ A lightweight Python package to automatically track and save versions of prompts
 
 Install from PyPI with pip:
 
-pip install prompt-version-manager
-
-text
+    pip install prompt-version-manager
 
 ## Usage
 
-from prompt_version_manager import PromptVersionManager
+    from prompt_version_manager import PromptVersionManager
 
-pvm = PromptVersionManager()
+    pvm = PromptVersionManager()
 
-Setting a prompt automatically saves it with the current timestamp
-pvm.prompt = "Write a poem about AI."
+    # Setting a prompt automatically saves it with the current timestamp
+    pvm.prompt = "Write a poem about AI."
 
-Optionally save the output related to the prompt
-pvm.output = "AI is transforming the world with technology."
+    # Optionally save the output related to the prompt
+    pvm.output = "AI is transforming the world with technology."
 
-text
 
-This creates or updates a `prompt_version_manager.json` file in your working directory containing your prompt history.
+    This creates or updates a `prompt_version_manager.json` file in your working directory containing your prompt history.
 
 ## Contributing
 
