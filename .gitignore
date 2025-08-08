@@ -6,3 +6,6 @@ prompt_version_manager.egg-info/PKG-INFO
 prompt_version_manager.egg-info/SOURCES.txt
 prompt_version_manager.egg-info/dependency_links.txt
 prompt_version_manager.egg-info/top_level.txt
+prompt_version_manager.json
+test.py
+__pycache__/prompt_version_manager.cpython-37.pyc
