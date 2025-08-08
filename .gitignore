@@ -1,0 +1,8 @@
+.pypirc
+build/lib/prompt_version_manager.py
+dist/prompt_version_manager-0.1.0-py3-none-any.whl
+dist/prompt_version_manager-0.1.0.tar.gz
+prompt_version_manager.egg-info/PKG-INFO
+prompt_version_manager.egg-info/SOURCES.txt
+prompt_version_manager.egg-info/dependency_links.txt
+prompt_version_manager.egg-info/top_level.txt
